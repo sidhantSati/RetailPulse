@@ -59,3 +59,15 @@ retailPulse_app*.py
 projectTrackerBackup.md
 mistakeLog.md
 reports/fileInventory.csv
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# MLflow local artifacts
+mlruns/
+mlflow.db
