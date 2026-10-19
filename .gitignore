@@ -1,0 +1,61 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# MLflow experiment artifacts
+mlruns/
+
+# Large cleaned dataset
+data/processedData/cleanedTransactions.csv
+
+# Raw source dataset
+data/rawData/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+logs/
+
+# Temporary dashboard backups
+app_before_*.py
+retailPulse_app*.py
+
+# OS/editor files
+.DS_Store
+Thumbs.dbMove-Item .git_backup ..\retailPulse_git_backup
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local experiment data
+mlruns/
+*.db
+*.sqlite
+*.sqlite3
+logs/
+
+# Large datasets
+data/rawData/
+data/processedData/cleanedTransactions.csv
+
+# Backup dashboard files
+app_before_*.py
+retailPulse_app*.py
+
+# Local development notes and backups
+projectTrackerBackup.md
+mistakeLog.md
+reports/fileInventory.csv
